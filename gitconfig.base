@@ -1,0 +1,27 @@
+[color]
+    ui = auto
+
+[core]
+    pager = less -FRSX
+
+[pager]
+    branch = true
+    status = true
+    diff = true
+
+[color "status"]
+    added = green
+    changed = yellow
+    untracked = red
+
+[color "diff"]
+    meta = yellow bold
+    frag = magenta bold
+    old = red bold
+    new = green bold
+    whitespace = red reverse
+
+[color "branch"]
+    current = green bold
+    local = yellow
+    remote = red
